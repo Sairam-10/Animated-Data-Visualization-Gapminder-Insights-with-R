@@ -23,13 +23,13 @@ dplyr - for data manipulation and cleaning
 gganimate - for creating animations
 
 🛠️ Installation & Setup:
-Install required R packages:
-install.packages(c("ggplot2", "dplyr", "gganimate", "gapminder", "gifski"))
-library(ggplot2)
-library(dplyr)
-library(gganimate)
-library(gifski)
-library(gapminder)
+-Install required R packages:
+-install.packages(c("ggplot2", "dplyr", "gganimate", "gapminder", "gifski"))
+-library(ggplot2)
+-library(dplyr)
+-library(gganimate)
+-library(gifski)
+-library(gapminder)
 
 📜 Code Snippet:
 gapminder%>%
