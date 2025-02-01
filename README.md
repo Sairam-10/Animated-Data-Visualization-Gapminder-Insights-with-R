@@ -1,26 +1,25 @@
-Animated Data Visualization: Gapminder Insights with R 🌏📊
+🌍 Animated Data Visualization: Gapminder Insights with R 📊
 
 Overview
-
-This project explores global development trends using the Gapminder dataset. The animated visualization showcases GDP per capita vs. life expectancy over time, categorized by continent.
+This project visualizes global development trends using the Gapminder dataset. It highlights GDP per capita vs. life expectancy over time, segmented by continent.
 
 🚀 Key Features:
-Animated visualization of GDP per capita and life expectancy trends.
-Faceted view for Africa, America, Asia, and Europe.
-Filtered data (GDP < 7000) for clearer insights.
-Upward trends in life expectancy as GDP increases.
-Notable disparities between continents, with Africa showing high variability.
+Animated visualization of GDP per capita vs. life expectancy.
+Faceted views for Africa, America, Asia, and Europe.
+Filters data to show countries with GDP less than $7000 for clearer insights.
+Illustrates upward trends in life expectancy with increasing GDP.
+Highlights disparities, with Africa showing high variability.
 
 📈 Visualization Insights:
-Countries with higher GDP per capita tend to have higher life expectancy.
-Africa shows significant variability, highlighting economic and healthcare challenges.
-The animation clearly illustrates progress over decades, especially in Asia and America.
+Higher GDP per capita correlates with higher life expectancy.
+Africa shows significant variability, emphasizing economic and healthcare challenges.
+The animation effectively demonstrates progress, particularly in Asia and the Americas.
 
 💡 Tools & Libraries Used:
 R Programming Language
-ggplot2 - for data visualization
-dplyr - for data manipulation and cleaning
-gganimate - for creating animations
+ggplot2: Data visualization
+dplyr: Data manipulation
+gganimate: Animation creation
 
 🛠️ Installation & Setup:
 Install required R packages:
@@ -42,3 +41,5 @@ gapminder%>%
   labs(title = "Year: {frame_time}")+
   transition_time(year)+
   ease_aes("linear")
+
+
