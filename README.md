@@ -1,6 +1,6 @@
-##Animated Data Visualization: Gapminder Insights with R 🌏📊
+Animated Data Visualization: Gapminder Insights with R 🌏📊
 
-#Overview
+Overview
 
 This project explores global development trends using the Gapminder dataset. The animated visualization showcases GDP per capita vs. life expectancy over time, categorized by continent.
 
